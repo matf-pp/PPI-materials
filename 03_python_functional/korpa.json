@@ -1,0 +1,6 @@
+[ {"ime" : "jabuke" ,"kolicina": 3.3},
+  {"ime": "kruske" , "kolicina": 2.1},
+  {"ime": "grozdje" , "kolicina":  2.6},
+  {"ime": "narandze" , "kolicina": 4.2},
+  {"ime": "sljive" , "kolicina" : 8.4},
+  {"ime": "banane" , "kolicina" : 4.4}]
