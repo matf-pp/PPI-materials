@@ -5,7 +5,7 @@ Ovaj repozitorijum sadrži materijale za vežbe iz kursa Programske Paradigme (I
 
 Korisni linkovi:
 - [Skripta](http://www.programskijezici.matf.bg.ac.rs/ppI/2020/vezbe/ProgramskiJezici.pdf)
-- [Strana kursa](http://www.programskijezici.matf.bg.ac.rs/ppI/)
+- [Strana kursa](http://www.programskijezici.matf.bg.ac.rs/ProgramskeParadigmeI.html)
 
 ## Održavanje i unapređivanje materijala
 
