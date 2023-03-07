@@ -35,3 +35,22 @@ for r in resenja:
     print("| {0:d} {1:d} {2:d} |".format(r['d'],r['e'],r['f']))
     print("| {0:d} {1:d} {2:d} |".format(r['g'],r['h'],r['i']))
     print(" ------- ")
+
+
+# U opstem slucaju, za kvadrat velicine `size`:
+# x_0_0 x_0_1 ... x_0_(size-1)
+# x_1_0 x_1_1 ...
+# ...
+# x_(size-1)_0 ...
+
+size = 10
+target_sum = 0    # calculate target sum for size
+vars = [f'x_{i}_{j}' for i in range(size) for j in range(size)]
+problem.addVariables(vars, range(size*size))
+
+for row in range(size):
+    row_vars = [f'x_{row}_{i}' for i in range(size)]
+    problem.addConstraint(constraint.ExactSumConstraint(target_sum), row_vars)
+
+# similar for columns and diagonals ...
+
